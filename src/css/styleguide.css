@@ -1,0 +1,18 @@
+:root { 
+  --dove-gray: #707070;
+  --mercury: #e5e5e5;
+  --new-york-pink: #d37676;
+  --pink-swan: #bababa;
+  --sea-pink: #eba0a0;
+  --stack: #8e8e8e;
+  --white: #ffffff;
+ 
+  --font-size-m: 30px;
+  --font-size-s: 25px;
+  --font-size-xs: 17px;
+  --font-size-xxs: 15px;
+  --font-size-xxxs: 12px;
+  --font-size-xxxxs: 10px;
+ 
+  --font-family-raleway: "Raleway", Helvetica;
+}

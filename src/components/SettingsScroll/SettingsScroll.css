@@ -1,0 +1,10 @@
+.settings-scroll {
+  align-items: center;
+  background-color: var(--mercury);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  width: 375px;
+}
+

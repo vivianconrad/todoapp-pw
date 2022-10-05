@@ -1,0 +1,11 @@
+.popup-light {
+  align-items: center;
+  background-color: var(--mercury);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  position: relative;
+  width: 375px;
+}
+

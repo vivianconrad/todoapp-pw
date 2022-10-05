@@ -1,15 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+// import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import './css/index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const percentage = 66;
+const DATA = [
+    { id: "todo-0", name: "CS Captsone Project", completed: true },
+    { id: "todo-1", name: "Cry", completed: false },
+    { id: "todo-2", name: "Froot Loops", completed: false },
+    { id: "todo-3", name: "Gravy", completed: false }
+];
+
+ReactDOM.render(
+    <React.StrictMode>
+        <App tasks={DATA} />
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
